@@ -288,3 +288,4 @@ mmRep += uptimeHours * liquidityProvided * fillRate;
 validatorRep += correctVerifications - missedViolations * 10;
 ```
 
+

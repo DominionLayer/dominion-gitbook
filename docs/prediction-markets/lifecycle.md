@@ -259,3 +259,4 @@ marketEvents.on('settled', (market) => {
 | Dispute window | 24 hours | 12h - 72h |
 | Settlement delay | 1 hour | 0 - 24h |
 
+
