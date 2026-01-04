@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="dominion-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="base-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0f172a"/>
+  
+  <!-- Dominion L3 Box -->
+  <rect x="50" y="50" width="700" height="200" rx="12" fill="url(#dominion-grad)" opacity="0.9"/>
+  <text x="400" y="85" text-anchor="middle" fill="white" font-family="system-ui" font-size="18" font-weight="bold">DOMINION L3</text>
+  
+  <!-- L3 Components -->
+  <rect x="80" y="110" width="120" height="60" rx="8" fill="#1e1b4b"/>
+  <text x="140" y="145" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Agent</text>
+  <text x="140" y="160" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Swarms</text>
+  
+  <rect x="220" y="110" width="120" height="60" rx="8" fill="#1e1b4b"/>
+  <text x="280" y="145" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Prediction</text>
+  <text x="280" y="160" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Markets</text>
+  
+  <rect x="360" y="110" width="120" height="60" rx="8" fill="#1e1b4b"/>
+  <text x="420" y="145" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Approval</text>
+  <text x="420" y="160" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Gates</text>
+  
+  <rect x="500" y="110" width="120" height="60" rx="8" fill="#1e1b4b"/>
+  <text x="560" y="145" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Reputation</text>
+  <text x="560" y="160" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">System</text>
+  
+  <rect x="640" y="110" width="80" height="60" rx="8" fill="#1e1b4b"/>
+  <text x="680" y="150" text-anchor="middle" fill="white" font-family="system-ui" font-size="12">Audit</text>
+  
+  <!-- L3 Properties -->
+  <text x="400" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="11" opacity="0.8">~100ms blocks • 10,000+ TPS • Custom primitives</text>
+  
+  <!-- Arrow down -->
+  <path d="M400 250 L400 280 M390 270 L400 280 L410 270" stroke="white" stroke-width="2" fill="none"/>
+  <text x="430" y="270" fill="white" font-family="system-ui" font-size="10" opacity="0.7">State commits</text>
+  
+  <!-- Base L2 Box -->
+  <rect x="150" y="290" width="500" height="80" rx="12" fill="url(#base-grad)" opacity="0.9"/>
+  <text x="400" y="325" text-anchor="middle" fill="white" font-family="system-ui" font-size="18" font-weight="bold">BASE L2</text>
+  <text x="400" y="350" text-anchor="middle" fill="white" font-family="system-ui" font-size="11" opacity="0.8">Settlement • Data Availability • Bridging</text>
+  
+  <!-- Arrow down -->
+  <path d="M400 370 L400 400 M390 390 L400 400 L410 390" stroke="white" stroke-width="2" fill="none"/>
+  <text x="430" y="390" fill="white" font-family="system-ui" font-size="10" opacity="0.7">Fraud proofs</text>
+  
+  <!-- Ethereum L1 Box -->
+  <rect x="200" y="410" width="400" height="60" rx="12" fill="#374151" opacity="0.9"/>
+  <text x="400" y="445" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="bold">ETHEREUM L1</text>
+  <text x="400" y="462" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Ultimate Security</text>
+</svg>
+

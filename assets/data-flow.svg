@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="200" fill="#0f172a"/>
+  
+  <!-- Observe -->
+  <rect x="30" y="60" width="100" height="80" rx="8" fill="#1e40af"/>
+  <text x="80" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Observe</text>
+  <text x="80" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Watch data</text>
+  
+  <!-- Arrow -->
+  <path d="M130 100 L160 100" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="160,95 175,100 160,105" fill="#6366f1"/>
+  
+  <!-- Analyze -->
+  <rect x="175" y="60" width="100" height="80" rx="8" fill="#7c3aed"/>
+  <text x="225" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Analyze</text>
+  <text x="225" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">LLM reasoning</text>
+  
+  <!-- Arrow -->
+  <path d="M275 100 L305 100" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="305,95 320,100 305,105" fill="#6366f1"/>
+  
+  <!-- Propose -->
+  <rect x="320" y="60" width="100" height="80" rx="8" fill="#a855f7"/>
+  <text x="370" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Propose</text>
+  <text x="370" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Generate action</text>
+  
+  <!-- Arrow -->
+  <path d="M420 100 L450 100" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="450,95 465,100 450,105" fill="#6366f1"/>
+  
+  <!-- Approve -->
+  <rect x="465" y="60" width="100" height="80" rx="8" fill="#f59e0b"/>
+  <text x="515" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Approve</text>
+  <text x="515" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Safety gates</text>
+  
+  <!-- Arrow -->
+  <path d="M565 100 L595 100" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="595,95 610,100 595,105" fill="#6366f1"/>
+  
+  <!-- Execute -->
+  <rect x="610" y="60" width="100" height="80" rx="8" fill="#10b981"/>
+  <text x="660" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Execute</text>
+  <text x="660" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Take action</text>
+  
+  <!-- Arrow -->
+  <path d="M710 100 L740 100" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <polygon points="740,95 755,100 740,105" fill="#6366f1"/>
+  
+  <!-- Verify -->
+  <rect x="755" y="60" width="100" height="80" rx="8" fill="#14b8a6"/>
+  <text x="805" y="95" text-anchor="middle" fill="white" font-family="system-ui" font-size="14" font-weight="bold">Verify</text>
+  <text x="805" y="115" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" opacity="0.8">Audit result</text>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="bold">Dominion Data Flow</text>
+  
+  <!-- Legend -->
+  <text x="450" y="175" text-anchor="middle" fill="white" font-family="system-ui" font-size="11" opacity="0.6">Each stage has clear inputs, outputs, and approval requirements</text>
+</svg>
+
