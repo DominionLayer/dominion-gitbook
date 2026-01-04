@@ -4,17 +4,17 @@ Prediction markets involve financial risk. Dominion implements multiple safety m
 
 ## Core Safety Principles
 
-1. **No Guaranteed Profits** — Never claim sure outcomes
-2. **Uncertainty is Real** — Always show confidence ranges
-3. **Human Oversight** — Humans approve significant actions
-4. **Gradual Exposure** — Start small, scale with trust
+1. **No Guaranteed Profits**: Never claim sure outcomes
+2. **Uncertainty is Real**: Always show confidence ranges
+3. **Human Oversight**: Humans approve significant actions
+4. **Gradual Exposure**: Start small, scale with trust
 
 ## Mandatory Disclaimers
 
 Every market-related output must include:
 
 ```
-⚠️ DISCLAIMER
+DISCLAIMER
 This is analysis and simulation only, NOT financial advice.
 Past performance does not guarantee future results.
 Never risk more than you can afford to lose.
@@ -42,8 +42,8 @@ ${DISCLAIMER}
 ### Always Show Ranges
 
 ```
-❌ Bad: "Probability: 65%"
-✅ Good: "Probability: 65% (confidence: 72%, range: 55-75%)"
+Bad: "Probability: 65%"
+Good: "Probability: 65% (confidence: 72%, range: 55-75%)"
 ```
 
 ### Confidence Calculation
@@ -87,7 +87,7 @@ Uncertainty Sources:
   • Limited historical precedent
   • Model trained on different market regime
 
-⚠️ This is analysis only, not financial advice.
+[This is analysis only, not financial advice.]
 ```
 
 ## Position Limits

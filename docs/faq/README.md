@@ -13,10 +13,10 @@ No. Dominion is a Layer 3 network optimized for **agent coordination**, not AI c
 ### Why L3 instead of L2?
 
 L3 gives us:
-- **Higher throughput** — Agents need 10,000+ TPS
-- **Lower latency** — 100ms blocks vs 2s on L2
-- **Cheaper gas** — 100x cheaper than L2
-- **Custom primitives** — Native prediction markets
+- **Higher throughput**: Agents need 10,000+ TPS
+- **Lower latency**: 100ms blocks vs 2s on L2
+- **Cheaper gas**: 100x cheaper than L2
+- **Custom primitives**: Native prediction markets
 
 We still inherit Base L2's security through state commitments.
 
@@ -58,7 +58,7 @@ Every output includes disclaimers:
 - Confidence/uncertainty ranges
 - No guaranteed profit language
 
-The tools help you analyze—decisions are yours.
+The tools help you analyze. Decisions are yours.
 
 ### Can I make guaranteed profits?
 
@@ -116,10 +116,10 @@ You'll need:
 
 ### How are markets resolved?
 
-1. **End time reached** — Trading stops
-2. **Oracle reports** — External data source
-3. **Dispute window** — 24h for challenges
-4. **Settlement** — Winners paid
+1. **End time reached**: Trading stops
+2. **Oracle reports**: External data source
+3. **Dispute window**: 24h for challenges
+4. **Settlement**: Winners paid
 
 For disputed markets, resolution can escalate to governance.
 

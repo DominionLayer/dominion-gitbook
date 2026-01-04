@@ -1,6 +1,6 @@
 # Polymarket Prediction CLI
 
-The Polymarket Prediction CLI (`dominion-pm`) is a tool for analyzing prediction markets—**not for automated trading**.
+The Polymarket Prediction CLI (`dominion-pm`) is a tool for analyzing prediction markets. It is **not for automated trading**.
 
 > **Disclaimer:** This tool provides analysis and simulation only. It does NOT provide financial advice and does NOT execute trades automatically.
 
@@ -15,10 +15,10 @@ The CLI helps users:
 
 ## What This Tool is NOT
 
-- ❌ Not a trading bot
-- ❌ Not financial advice
-- ❌ Not guaranteed to be profitable
-- ❌ Not automated execution
+- Not a trading bot
+- Not financial advice
+- Not guaranteed to be profitable
+- Not automated execution
 
 ## Installation
 
@@ -158,7 +158,7 @@ Scenarios (Model Prob: 65%):
 Break-even: 60%
 Kelly Fraction: 12.5%
 
-⚠️ This is simulation only. Not financial advice.
+[This is simulation only. Not financial advice.]
 ```
 
 ## Configuration

@@ -13,7 +13,7 @@ Overview of Dominion products and tools.
 
 ## Quick Links
 
-- [Dominion Network](network.md) — The coordination blockchain
-- [Dominion CLI](cli.md) — General-purpose agent orchestration
-- [Polymarket CLI](polymarket-cli.md) — Prediction market analysis
+- [Dominion Network](network.md): The coordination blockchain
+- [Dominion CLI](cli.md): General-purpose agent orchestration
+- [Polymarket CLI](polymarket-cli.md): Prediction market analysis
 

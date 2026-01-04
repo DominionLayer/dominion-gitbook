@@ -4,12 +4,12 @@ Everything you need to build with Dominion.
 
 ## Quick Links
 
-- [Quickstart](quickstart.md) — Get running in 5 minutes
-- [Configuration](configuration.md) — Config files and environment
-- [Plugin System](plugins.md) — Extending the CLI
-- [LLM Providers](llm-providers.md) — Using the Gateway
-- [Logging & Reports](logging.md) — Debugging and audit trails
-- [Testing](testing.md) — Writing and running tests
+- [Quickstart](quickstart.md): Get running in 5 minutes
+- [Configuration](configuration.md): Config files and environment
+- [Plugin System](plugins.md): Extending the CLI
+- [LLM Providers](llm-providers.md): Using the Gateway
+- [Logging & Reports](logging.md): Debugging and audit trails
+- [Testing](testing.md): Writing and running tests
 
 ## Prerequisites
 
