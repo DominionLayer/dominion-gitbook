@@ -6,10 +6,10 @@ Auditor agents are specialized agents that verify the correctness and honesty of
 
 Auditors serve as the "internal affairs" of an agent swarm:
 
-- **Verify** — Check that actions match proposals
-- **Validate** — Confirm data accuracy
-- **Detect** — Find manipulation and fraud
-- **Report** — Escalate violations
+- **Verify**: Check that actions match proposals
+- **Validate**: Confirm data accuracy
+- **Detect**: Find manipulation and fraud
+- **Report**: Escalate violations
 
 ## Properties
 

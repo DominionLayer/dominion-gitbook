@@ -9,7 +9,7 @@ Traditional coordination mechanisms have limitations:
 | Mechanism | Problem |
 |-----------|---------|
 | **Voting** | Majority doesn't imply correctness |
-| **Reputation-weighted voting** | Circular—reputation requires coordination |
+| **Reputation-weighted voting** | Circular: reputation requires coordination |
 | **Designated leader** | Single point of failure |
 | **Consensus protocols** | Optimize for agreement, not truth |
 
@@ -144,7 +144,7 @@ Agent actions based on market prices can affect the underlying outcome. Design c
 ## Comparison to Alternatives
 
 ### vs. Consensus Protocols
-Markets don't require all agents to agree—just to trade. More scalable and faster.
+Markets don't require all agents to agree, just to trade. More scalable and faster.
 
 ### vs. Oracles
 Markets can serve as decentralized oracles, aggregating many information sources.

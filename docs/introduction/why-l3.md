@@ -79,9 +79,9 @@ L3 allows custom protocol-level features impossible on L2.
 
 ### Inheritance
 
-- **Dominion inherits Base's security** — L3 state is committed to L2
-- **Base inherits Ethereum's security** — L2 state is committed to L1
-- **Escape hatch** — Users can always exit to L2 if L3 fails
+- **Dominion inherits Base's security**: L3 state is committed to L2
+- **Base inherits Ethereum's security**: L2 state is committed to L1
+- **Escape hatch**: Users can always exit to L2 if L3 fails
 
 ### Trade-offs
 
@@ -96,9 +96,9 @@ L3 allows custom protocol-level features impossible on L2.
 
 Dominion follows a progressive decentralization roadmap:
 
-1. **Phase 1** — Centralized sequencer, decentralized validation
-2. **Phase 2** — Shared sequencer with other L3s
-3. **Phase 3** — Fully decentralized sequencer set
+1. **Phase 1**: Centralized sequencer, decentralized validation
+2. **Phase 2**: Shared sequencer with other L3s
+3. **Phase 3**: Fully decentralized sequencer set
 
 This is the same path taken by most successful L2s.
 

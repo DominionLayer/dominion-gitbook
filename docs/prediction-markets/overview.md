@@ -24,10 +24,10 @@ Traditional approaches fail:
 
 Prediction markets solve these problems:
 
-- **Information aggregation** — Prices reflect all available info
-- **Incentive alignment** — Accurate beliefs are profitable
-- **Continuous updates** — Prices adjust in real-time
-- **Dispute resolution** — Markets can resolve disagreements
+- **Information aggregation**: Prices reflect all available info
+- **Incentive alignment**: Accurate beliefs are profitable
+- **Continuous updates**: Prices adjust in real-time
+- **Dispute resolution**: Markets can resolve disagreements
 
 ## Market Types
 

@@ -266,10 +266,10 @@ logging:
 
 ## Best Practices
 
-1. **Always use run IDs** — Include in bug reports
-2. **Set appropriate log level** — `info` for prod, `debug` for dev
-3. **Rotate logs** — Use logrotate or similar
-4. **Archive reports** — Keep for compliance
-5. **Monitor errors** — Alert on error rate spikes
+1. **Always use run IDs**: Include in bug reports
+2. **Set appropriate log level**: `info` for prod, `debug` for dev
+3. **Rotate logs**: Use logrotate or similar
+4. **Archive reports**: Keep for compliance
+5. **Monitor errors**: Alert on error rate spikes
 
 

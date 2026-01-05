@@ -246,17 +246,17 @@ rate_limits:
 
 ### For Developers
 
-1. **Respect rate limits** — Don't circumvent them
-2. **Use exponential backoff** — Don't hammer on 429
-3. **Cache responses** — Reduce unnecessary calls
-4. **Batch requests** — Combine where possible
-5. **Monitor usage** — Track quota consumption
+1. **Respect rate limits**: Don't circumvent them
+2. **Use exponential backoff**: Don't hammer on 429
+3. **Cache responses**: Reduce unnecessary calls
+4. **Batch requests**: Combine where possible
+5. **Monitor usage**: Track quota consumption
 
 ### For Operators
 
-1. **Set appropriate limits** — Based on infrastructure capacity
-2. **Monitor abuse** — Track suspicious patterns
-3. **Adjust dynamically** — Increase/decrease based on load
-4. **Communicate limits** — Document clearly for users
+1. **Set appropriate limits**: Based on infrastructure capacity
+2. **Monitor abuse**: Track suspicious patterns
+3. **Adjust dynamically**: Increase/decrease based on load
+4. **Communicate limits**: Document clearly for users
 
 

@@ -63,23 +63,23 @@ Agents express beliefs by trading in prediction markets, creating price signals 
 
 ## Swarm Lifecycle
 
-1. **Formation** — Agents register and declare their roles
-2. **Observation** — Watcher agents begin monitoring data sources
-3. **Analysis** — Analyst agents process observations
-4. **Coordination** — Agents reach consensus through markets
-5. **Proposal** — Actions are proposed based on analysis
-6. **Approval** — Proposals pass through approval gates
-7. **Execution** — Approved actions are executed
-8. **Audit** — Auditor agents verify outcomes
+1. **Formation**: Agents register and declare their roles
+2. **Observation**: Watcher agents begin monitoring data sources
+3. **Analysis**: Analyst agents process observations
+4. **Coordination**: Agents reach consensus through markets
+5. **Proposal**: Actions are proposed based on analysis
+6. **Approval**: Proposals pass through approval gates
+7. **Execution**: Approved actions are executed
+8. **Audit**: Auditor agents verify outcomes
 
 ## Economic Model
 
 Agents have economic skin in the game:
 
-- **Staking** — Agents stake tokens to participate
-- **Rewards** — Correct predictions and successful executions earn rewards
-- **Slashing** — Malicious or negligent behavior results in stake loss
-- **Reputation** — Historical performance affects future opportunities
+- **Staking**: Agents stake tokens to participate
+- **Rewards**: Correct predictions and successful executions earn rewards
+- **Slashing**: Malicious or negligent behavior results in stake loss
+- **Reputation**: Historical performance affects future opportunities
 
 See [Incentives & Reputation](./incentives.md) for details.
 

@@ -4,11 +4,11 @@ This document describes the security threats Dominion is designed to handle and 
 
 ## Threat Categories
 
-1. **Adversarial Agents** — Malicious agents within the swarm
-2. **Market Manipulation** — Attacks on prediction markets
-3. **Oracle Attacks** — Compromise of data sources
-4. **Infrastructure Attacks** — Attacks on off-chain components
-5. **Governance Attacks** — Abuse of governance mechanisms
+1. **Adversarial Agents**: Malicious agents within the swarm
+2. **Market Manipulation**: Attacks on prediction markets
+3. **Oracle Attacks**: Compromise of data sources
+4. **Infrastructure Attacks**: Attacks on off-chain components
+5. **Governance Attacks**: Abuse of governance mechanisms
 
 ---
 
@@ -206,12 +206,12 @@ Malicious parameter changes (e.g., slashing = 100%).
 
 ### Response Procedures
 
-1. **Detection** — Automated monitoring or user report
-2. **Triage** — Assess severity and impact
-3. **Containment** — Pause affected components if needed
-4. **Investigation** — Determine root cause
-5. **Resolution** — Fix and verify
-6. **Post-mortem** — Document and improve
+1. **Detection**: Automated monitoring or user report
+2. **Triage**: Assess severity and impact
+3. **Containment**: Pause affected components if needed
+4. **Investigation**: Determine root cause
+5. **Resolution**: Fix and verify
+6. **Post-mortem**: Document and improve
 
 ---
 

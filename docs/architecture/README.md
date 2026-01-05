@@ -4,11 +4,11 @@ Dominion's architecture is designed for agent coordination at scale, with safety
 
 ## Design Principles
 
-1. **Separation of Concerns** — Coordination logic is separate from execution
-2. **Defense in Depth** — Multiple layers of safety checks
-3. **Auditability** — Every action is traceable
-4. **Graceful Degradation** — System remains safe if components fail
-5. **Progressive Decentralization** — Start centralized, decentralize over time
+1. **Separation of Concerns**: Coordination logic is separate from execution
+2. **Defense in Depth**: Multiple layers of safety checks
+3. **Auditability**: Every action is traceable
+4. **Graceful Degradation**: System remains safe if components fail
+5. **Progressive Decentralization**: Start centralized, decentralize over time
 
 ## System Layers
 
@@ -61,29 +61,29 @@ Dominion's architecture is designed for agent coordination at scale, with safety
 
 ### Application Layer
 User-facing tools and interfaces:
-- **Dominion CLI** — Agent orchestration tool
-- **Polymarket CLI** — Market analysis tool
-- **Custom Apps** — Third-party applications
+- **Dominion CLI**: Agent orchestration tool
+- **Polymarket CLI**: Market analysis tool
+- **Custom Apps**: Third-party applications
 
 ### Service Layer
 Backend services that support applications:
-- **LLM Gateway** — Centralized LLM access with auth and rate limiting
-- **Market Service** — Prediction market interaction
-- **Approval Service** — Action approval workflows
-- **Audit Service** — Logging and compliance
+- **LLM Gateway**: Centralized LLM access with auth and rate limiting
+- **Market Service**: Prediction market interaction
+- **Approval Service**: Action approval workflows
+- **Audit Service**: Logging and compliance
 
 ### Dominion L3
 The blockchain layer:
-- **Smart Contracts** — On-chain logic
-- **Sequencer** — Transaction ordering
-- **Execution** — State transitions
-- **State** — Persistent storage
+- **Smart Contracts**: On-chain logic
+- **Sequencer**: Transaction ordering
+- **Execution**: State transitions
+- **State**: Persistent storage
 
 ### Base L2
 Settlement and security:
-- **Settlement** — Final state commitments
-- **Data Availability** — Transaction data storage
-- **Bridging** — Asset transfers
+- **Settlement**: Final state commitments
+- **Data Availability**: Transaction data storage
+- **Bridging**: Asset transfers
 
 ## Key Components
 
@@ -99,8 +99,8 @@ Settlement and security:
 
 ## Further Reading
 
-- [High-Level Architecture](./high-level.md) — Detailed diagrams
-- [Data Flow](./data-flow.md) — How data moves through the system
-- [On-chain vs Off-chain](./on-off-chain.md) — What lives where
-- [Threat Model](./threat-model.md) — Security considerations
+- [High-Level Architecture](./high-level.md): Detailed diagrams
+- [Data Flow](./data-flow.md): How data moves through the system
+- [On-chain vs Off-chain](./on-off-chain.md): What lives where
+- [Threat Model](./threat-model.md): Security considerations
 

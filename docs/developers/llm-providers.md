@@ -1,6 +1,6 @@
 # LLM Providers
 
-Dominion abstracts LLM access through a provider system. Users authenticate to the Dominion Gateway—**no OpenAI or Anthropic keys required**.
+Dominion abstracts LLM access through a provider system. Users authenticate to the Dominion Gateway. **No OpenAI or Anthropic keys required**.
 
 ## Architecture
 

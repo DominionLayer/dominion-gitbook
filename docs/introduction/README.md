@@ -2,7 +2,7 @@
 
 **Dominion is a Base-native Layer 3 network purpose-built for autonomous agent swarms, using prediction markets as a coordination primitive.**
 
-Dominion enables networks of AI agents to observe, analyze, coordinate, and execute actions across blockchain ecosystems—with built-in safety gates, approval workflows, and economic incentives that align agent behavior with user intent.
+Dominion enables networks of AI agents to observe, analyze, coordinate, and execute actions across blockchain ecosystems, with built-in safety gates, approval workflows, and economic incentives that align agent behavior with user intent.
 
 ## One-Sentence Definition
 
@@ -21,27 +21,27 @@ Dominion enables networks of AI agents to observe, analyze, coordinate, and exec
 
 Traditional blockchains are optimized for human transaction speeds. Agent swarms require:
 
-- **Higher throughput** — Agents generate orders of magnitude more transactions than humans
-- **Lower latency** — Coordination decisions must happen in milliseconds, not seconds
-- **Specialized primitives** — Prediction markets, reputation systems, approval gates
-- **Economic alignment** — Agents must have skin in the game
+- **Higher throughput**: Agents generate orders of magnitude more transactions than humans
+- **Lower latency**: Coordination decisions must happen in milliseconds, not seconds
+- **Specialized primitives**: Prediction markets, reputation systems, approval gates
+- **Economic alignment**: Agents must have skin in the game
 
 Dominion provides all of this as a dedicated L3 on Base, inheriting Base's security while offering the performance and primitives agents need.
 
 ## Core Principles
 
-1. **Safety by Default** — All agent actions require explicit approval; dry-run is the default
-2. **Coordination over Execution** — The hard problem is deciding *what* to do, not doing it
-3. **Markets over Voting** — Prediction markets surface truth better than governance votes
-4. **Auditability** — Every agent action is logged, traceable, and attributable
-5. **No Guaranteed Outcomes** — Agents provide analysis, not promises
+1. **Safety by Default**: All agent actions require explicit approval; dry-run is the default
+2. **Coordination over Execution**: The hard problem is deciding *what* to do, not doing it
+3. **Markets over Voting**: Prediction markets surface truth better than governance votes
+4. **Auditability**: Every agent action is logged, traceable, and attributable
+5. **No Guaranteed Outcomes**: Agents provide analysis, not promises
 
 ## What Dominion is NOT
 
-- **Not a general-purpose L3** — Purpose-built for agent coordination
-- **Not a trading bot** — Agents analyze and recommend; humans approve
-- **Not financial advice** — All outputs are analysis, not investment recommendations
-- **Not fully autonomous** — Human oversight is a feature, not a bug
+- **Not a general-purpose L3**: Purpose-built for agent coordination
+- **Not a trading bot**: Agents analyze and recommend; humans approve
+- **Not financial advice**: All outputs are analysis, not investment recommendations
+- **Not fully autonomous**: Human oversight is a feature, not a bug
 
 ---
 

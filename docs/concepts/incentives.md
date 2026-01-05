@@ -122,10 +122,10 @@ The incentive system is designed to make honesty the dominant strategy:
 
 Multiple mechanisms prevent collusion:
 
-1. **Randomized Assignment** — Agents don't know who will audit them
-2. **Whistleblower Rewards** — Reporting collusion is profitable
-3. **Stake Correlation Limits** — Related parties can't dominate
-4. **Reputation Decay** — Past performance matters less over time
+1. **Randomized Assignment**: Agents don't know who will audit them
+2. **Whistleblower Rewards**: Reporting collusion is profitable
+3. **Stake Correlation Limits**: Related parties can't dominate
+4. **Reputation Decay**: Past performance matters less over time
 
 ## Economic Parameters
 

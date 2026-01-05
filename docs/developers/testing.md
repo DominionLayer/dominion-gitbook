@@ -364,10 +364,10 @@ jobs:
 
 ## Best Practices
 
-1. **Test in isolation** — Mock external dependencies
-2. **Use meaningful assertions** — Not just `toBeDefined()`
-3. **Test edge cases** — Empty inputs, invalid data
-4. **Keep tests fast** — Use in-memory DB, mock APIs
-5. **Name tests clearly** — Describe expected behavior
+1. **Test in isolation**: Mock external dependencies
+2. **Use meaningful assertions**: Not just `toBeDefined()`
+3. **Test edge cases**: Empty inputs, invalid data
+4. **Keep tests fast**: Use in-memory DB, mock APIs
+5. **Name tests clearly**: Describe expected behavior
 
 

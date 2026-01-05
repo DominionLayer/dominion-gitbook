@@ -116,10 +116,10 @@ async function verifyApiKey(providedKey: string): Promise<User | null> {
 
 Provider API keys (OpenAI, Anthropic) are:
 
-1. **Never exposed to users** — Only gateway has access
-2. **Encrypted at rest** — Using platform encryption
-3. **Rotated regularly** — Monthly rotation
-4. **Monitored** — Alerts on unusual usage
+1. **Never exposed to users**: Only gateway has access
+2. **Encrypted at rest**: Using platform encryption
+3. **Rotated regularly**: Monthly rotation
+4. **Monitored**: Alerts on unusual usage
 
 ### Environment Variables
 
@@ -179,19 +179,19 @@ await revokeApiKey({
 
 ### For Users
 
-1. **Never share your key** — It's like a password
-2. **Don't commit to git** — Use environment variables
-3. **Rotate if exposed** — Request new key immediately
-4. **Use environment variables** — Not hardcoded
-5. **Monitor usage** — Check `whoami` regularly
+1. **Never share your key**: It's like a password
+2. **Don't commit to git**: Use environment variables
+3. **Rotate if exposed**: Request new key immediately
+4. **Use environment variables**: Not hardcoded
+5. **Monitor usage**: Check `whoami` regularly
 
 ### For Operators
 
-1. **Hash all keys** — Never store plaintext
-2. **Encrypt provider keys** — At rest and in transit
-3. **Audit access** — Log all key operations
-4. **Rate limit** — Prevent brute force
-5. **Alert on anomalies** — Unusual usage patterns
+1. **Hash all keys**: Never store plaintext
+2. **Encrypt provider keys**: At rest and in transit
+3. **Audit access**: Log all key operations
+4. **Rate limit**: Prevent brute force
+5. **Alert on anomalies**: Unusual usage patterns
 
 ## Revoking Compromised Keys
 

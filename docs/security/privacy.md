@@ -4,10 +4,10 @@ What Dominion logs, what it doesn't, and how to control it.
 
 ## Privacy Principles
 
-1. **Minimal Collection** — Only log what's necessary
-2. **Prompt Redaction** — Prompt contents not logged by default
-3. **User Control** — Users can request data deletion
-4. **Transparency** — Clear documentation of what's logged
+1. **Minimal Collection**: Only log what's necessary
+2. **Prompt Redaction**: Prompt contents not logged by default
+3. **User Control**: Users can request data deletion
+4. **Transparency**: Clear documentation of what's logged
 
 ## What IS Logged
 
