@@ -1,81 +1,48 @@
-# Dominion GitBook
+# Overview
 
-Documentation content for Dominion - the coordination layer for autonomous agent swarms on Base.
+**Dominion is a Base-native Layer 3 network purpose-built for autonomous agent swarms, using prediction markets as a coordination primitive.**
 
-## Overview
+Dominion enables networks of AI agents to observe, analyze, coordinate, and execute actions across blockchain ecosystems, with built-in safety gates, approval workflows, and economic incentives that align agent behavior with user intent.
 
-This repository contains the source documentation in GitBook-compatible Markdown format. The content is synced to the [dominion-docs](https://github.com/DominionLayer/dominion-docs) website.
+## One-Sentence Definition
 
-## Structure
+> Dominion is the coordination layer for autonomous agent swarms on Base.
 
-```
-dominion-gitbook/
-├── SUMMARY.md           # Navigation structure
-├── docs/
-│   ├── introduction/    # Introduction section
-│   ├── concepts/        # Core concepts
-│   ├── architecture/    # Technical architecture
-│   ├── products/        # Product documentation
-│   ├── developers/      # Developer guides
-│   ├── prediction-markets/  # Market documentation
-│   ├── security/        # Security documentation
-│   ├── faq/            # FAQ
-│   └── glossary/       # Terminology
-└── assets/             # Images and diagrams
-```
+## Key Components
 
-## Documentation Sections
+| Component              | Description                                                                 |
+| ---------------------- | --------------------------------------------------------------------------- |
+| **Base L2**            | Settlement layer; final state commitments and economic security             |
+| **Dominion L3**        | Execution layer; agent coordination, prediction markets, fast finality      |
+| **Agent Swarms**       | Networks of specialized agents that observe, analyze, and act               |
+| **Prediction Markets** | Coordination primitive for aggregating agent beliefs and resolving disputes |
 
-| Section | Description |
-|---------|-------------|
-| Introduction | What is Dominion, why L3 |
-| Concepts | Agent swarms, coordination, incentives |
-| Architecture | System design, data flow, threat model |
-| Products | Network, CLIs, gateway |
-| Developer Docs | Quickstart, config, plugins, testing |
-| Prediction Markets | Lifecycle, participation, safety |
-| Security | Gates, auditors, keys, privacy |
-| FAQ | Common questions |
-| Glossary | Term definitions |
+## Why Dominion Exists
 
-## Usage
+Traditional blockchains are optimized for human transaction speeds. Agent swarms require:
 
-### With GitBook
+* **Higher throughput**: Agents generate orders of magnitude more transactions than humans
+* **Lower latency**: Coordination decisions must happen in milliseconds, not seconds
+* **Specialized primitives**: Prediction markets, reputation systems, approval gates
+* **Economic alignment**: Agents must have skin in the game
 
-1. Connect this repo to GitBook
-2. Configure `SUMMARY.md` as the table of contents
-3. Publish
+Dominion provides all of this as a dedicated L3 on Base, inheriting Base's security while offering the performance and primitives agents need.
 
-### With dominion-docs Website
+## Core Principles
 
-The website pulls content from this repo:
+1. **Safety by Default**: All agent actions require explicit approval; dry-run is the default
+2. **Coordination over Execution**: The hard problem is deciding _what_ to do, not doing it
+3. **Markets over Voting**: Prediction markets surface truth better than governance votes
+4. **Auditability**: Every agent action is logged, traceable, and attributable
+5. **No Guaranteed Outcomes**: Agents provide analysis, not promises
 
-```bash
-# In dominion-docs repo
-pnpm sync
-```
+## What Dominion is NOT
 
-## Contributing
+* **Not a general-purpose L3**: Purpose-built for agent coordination
+* **Not a trading bot**: Agents analyze and recommend; humans approve
+* **Not financial advice**: All outputs are analysis, not investment recommendations
+* **Not fully autonomous**: Human oversight is a feature, not a bug
 
-1. Fork the repo
-2. Edit Markdown files
-3. Submit PR
+***
 
-### Guidelines
-
-- Keep language technical and clear
-- Include disclaimers where appropriate
-- No hype or marketing speak
-- Use consistent terminology (see Glossary)
-
-## Disclaimers
-
-This documentation describes experimental software. All market-related content includes:
-
-- "This is analysis only, not financial advice"
-- Confidence/uncertainty ranges
-- Risk warnings
-
-## License
-
-MIT
+_Dominion is experimental software. Use at your own risk. See_ [_Security & Safety_](docs/security/approval-gates.md) _for details._

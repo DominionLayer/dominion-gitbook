@@ -1,14 +1,14 @@
-# Table of Contents
+# Table of contents
 
 ## Introduction
 
-* [Overview](docs/introduction/README.md)
+* [Overview](README.md)
 * [Quick Overview](docs/introduction/overview.md)
 * [Why L3?](docs/introduction/why-l3.md)
 
 ## Concepts
 
-* [Overview](docs/concepts/README.md)
+* [Overview](concepts/overview.md)
 * [Agent Swarms](docs/concepts/agent-swarms.md)
 * [Agent Roles](docs/concepts/agent-roles.md)
 * [Coordination](docs/concepts/coordination.md)
