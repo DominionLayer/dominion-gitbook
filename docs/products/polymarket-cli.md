@@ -1,4 +1,4 @@
-# Polymarket Prediction CLI
+# Polymarket CLI
 
 The Polymarket Prediction CLI (`dominion-pm`) is a tool for analyzing prediction markets. It is **not for automated trading**.
 
@@ -7,18 +7,14 @@ The Polymarket Prediction CLI (`dominion-pm`) is a tool for analyzing prediction
 ## Overview
 
 The CLI helps users:
-- Discover active Polymarket markets
-- Estimate outcome probabilities
-- Calculate edge (model vs market)
-- Simulate positions and expected value
-- Generate analysis reports
 
-## What This Tool is NOT
+* Discover active Polymarket markets
+* Estimate outcome probabilities
+* Calculate edge (model vs market)
+* Simulate positions and expected value
+* Generate analysis reports
 
-- Not a trading bot
-- Not financial advice
-- Not guaranteed to be profitable
-- Not automated execution
+
 
 ## Installation
 
@@ -59,23 +55,24 @@ dominion-pm simulate <market_id> --position YES --size 10
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `dominion-pm init` | Initialize config and database |
-| `dominion-pm login` | Authenticate with gateway |
-| `dominion-pm whoami` | Show user and quota |
-| `dominion-pm scan` | Fetch active markets |
-| `dominion-pm show <id>` | View market details |
-| `dominion-pm analyze <id>` | Run probability estimation |
-| `dominion-pm compare` | Find top edge opportunities |
-| `dominion-pm simulate <id>` | Calculate expected value |
-| `dominion-pm report` | Generate reports |
-| `dominion-pm doctor` | Validate setup |
-| `dominion-pm help-disclaimer` | View legal notices |
+| Command                       | Description                    |
+| ----------------------------- | ------------------------------ |
+| `dominion-pm init`            | Initialize config and database |
+| `dominion-pm login`           | Authenticate with gateway      |
+| `dominion-pm whoami`          | Show user and quota            |
+| `dominion-pm scan`            | Fetch active markets           |
+| `dominion-pm show <id>`       | View market details            |
+| `dominion-pm analyze <id>`    | Run probability estimation     |
+| `dominion-pm compare`         | Find top edge opportunities    |
+| `dominion-pm simulate <id>`   | Calculate expected value       |
+| `dominion-pm report`          | Generate reports               |
+| `dominion-pm doctor`          | Validate setup                 |
+| `dominion-pm help-disclaimer` | View legal notices             |
 
 ## Probability Estimation
 
 ### LLM Estimator
+
 Uses AI models to analyze market context:
 
 ```bash
@@ -83,6 +80,7 @@ dominion-pm analyze <market_id>
 ```
 
 Output:
+
 ```json
 {
   "estimated_probability": 0.65,
@@ -102,6 +100,7 @@ Output:
 ```
 
 ### Baseline Estimator
+
 Deterministic heuristics (no LLM required):
 
 ```bash
@@ -109,10 +108,11 @@ dominion-pm analyze <market_id> --estimator baseline
 ```
 
 Uses:
-- Price momentum
-- Liquidity levels
-- Time to expiry
-- Bid-ask spread
+
+* Price momentum
+* Liquidity levels
+* Time to expiry
+* Bid-ask spread
 
 ## Edge Calculation
 
@@ -120,11 +120,11 @@ Uses:
 edge = model_probability - market_probability
 ```
 
-| Edge | Interpretation |
-|------|----------------|
+| Edge  | Interpretation                  |
+| ----- | ------------------------------- |
 | > +5% | Model thinks YES is undervalued |
-| < -5% | Model thinks NO is undervalued |
-| ±5% | Within noise range |
+| < -5% | Model thinks NO is undervalued  |
+| ±5%   | Within noise range              |
 
 ```bash
 # Find markets with highest edge
@@ -143,6 +143,7 @@ dominion-pm simulate <market_id> \
 ```
 
 Output:
+
 ```
 Position Simulation
 -------------------
@@ -175,8 +176,9 @@ dominion-pm login
 ```
 
 You will be prompted for:
-- **Gateway URL**: Press Enter to use the default (`https://api.dominionlayer.io`)
-- **API Token**: Enter your `dom_xxx` token
+
+* **Gateway URL**: Press Enter to use the default (`https://api.dominionlayer.io`)
+* **API Token**: Enter your `dom_xxx` token
 
 The token is verified and saved to `pm.config.yaml` for future use.
 
@@ -232,10 +234,10 @@ ls reports/
 
 ### Every Output Includes
 
-- "This is analysis and simulation, not financial advice"
-- Confidence/uncertainty ratings
-- Assumption disclosures
-- Failure mode warnings
+* "This is analysis and simulation, not financial advice"
+* Confidence/uncertainty ratings
+* Assumption disclosures
+* Failure mode warnings
 
 ### No Automatic Execution
 
@@ -252,9 +254,10 @@ dominion-pm exec <market_id> --position YES --size 10
 ### Rate Limiting
 
 Built-in rate limiting protects against:
-- API abuse
-- Excessive LLM costs
-- Accidental loops
+
+* API abuse
+* Excessive LLM costs
+* Accidental loops
 
 ## Example Workflow
 
@@ -287,14 +290,14 @@ dominion-pm analyze abc123 --report
 **IMPORTANT:** Run `dominion-pm help-disclaimer` for full legal notices.
 
 Summary:
-- This software is for informational and educational purposes ONLY
-- It does NOT provide financial, investment, or trading advice
-- It does NOT guarantee any profits or outcomes
-- It does NOT execute trades automatically
-- Past performance does not indicate future results
-- Use at your own risk
 
----
+* This software is for informational and educational purposes ONLY
+* It does NOT provide financial, investment, or trading advice
+* It does NOT guarantee any profits or outcomes
+* It does NOT execute trades automatically
+* Past performance does not indicate future results
+* Use at your own risk
 
-*Dominion is experimental software. Prediction markets involve financial risk. Never risk more than you can afford to lose.*
+***
 
+_Dominion is experimental software. Prediction markets involve financial risk. Never risk more than you can afford to lose._
