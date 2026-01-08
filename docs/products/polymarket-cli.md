@@ -43,8 +43,9 @@ pnpm link --global
 # Initialize configuration and database
 dominion-pm init
 
-# Set your API token
-export DOMINION_API_TOKEN=dom_your_token
+# Login with your API token
+dominion-pm login
+# Enter your dom_xxx token when prompted
 
 # Scan active markets
 dominion-pm scan
@@ -161,14 +162,39 @@ Kelly Fraction: 12.5%
 [This is simulation only. Not financial advice.]
 ```
 
+## Authentication
+
+### Getting Your API Token
+
+Contact the Dominion administrator to receive a `dom_xxx` API token.
+
+### Login
+
+```bash
+dominion-pm login
+```
+
+You will be prompted for:
+- **Gateway URL**: Press Enter to use the default (`https://api.dominionlayer.io`)
+- **API Token**: Enter your `dom_xxx` token
+
+The token is verified and saved to `pm.config.yaml` for future use.
+
+### Alternative: Environment Variable
+
+```bash
+export DOMINION_API_TOKEN=dom_your_token
+```
+
 ## Configuration
 
 ### pm.config.yaml
 
 ```yaml
-# Gateway (built-in URL)
+# Gateway
 gateway:
-  token: "dom_your_token"  # Or use env var
+  url: "https://api.dominionlayer.io"
+  token: "dom_your_token"
 
 # Polymarket API
 polymarket:
